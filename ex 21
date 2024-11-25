@@ -1,0 +1,52 @@
+
+```ts
+let aleatorio = Math.floor(Math.random() * 101); // Gera de 0 a 100
+console.log(`Número aleatório: ${aleatorio}`);
+
+  
+```
+
+
+
+<details><summary><b>Output</b></summary>
+
+```ts
+"use strict";
+let aleatorio = Math.floor(Math.random() * 101); // Gera de 0 a 100
+console.log(`Número aleatório: ${aleatorio}`);
+
+```
+
+
+</details>
+
+
+<details><summary><b>Compiler Options</b></summary>
+
+```json
+{
+  "compilerOptions": {
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictPropertyInitialization": true,
+    "strictBindCallApply": true,
+    "noImplicitThis": true,
+    "noImplicitReturns": true,
+    "alwaysStrict": true,
+    "esModuleInterop": true,
+    "declaration": true,
+    "target": "ES2017",
+    "jsx": "react",
+    "module": "ESNext",
+    "moduleResolution": "node"
+  }
+}
+```
+
+
+</details>
+
+**Playground Link:** [Provided](https://www.typescriptlang.org/pt/play/?#code/DYUwLgBAhqVg9gJwJbwgXggWTgCwHQBmw8SAFDmAYlAHYAm8AtmQJQQBUEAjAAzesA3BAD0IiAHEQNCPRARe0Hr14AoAMbxaAZ3ih8JAOZkABgDkAX02loYIOAGeU8AFwQAJAG87cJKgC+JkKqqhAQQA)
+      
