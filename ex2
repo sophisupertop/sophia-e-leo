@@ -1,0 +1,79 @@
+
+```ts
+let numero = parseFloat(prompt("Digite um número:"));
+
+if (numero % 2 === 0) {
+    console.log("O número é par.");
+} else {
+    console.log("O número é ímpar.");
+}
+
+if (numero > 0) {
+    console.log("O número é positivo.");
+} else if (numero < 0) {
+    console.log("O número é negativo.");
+} else {
+    console.log("O número é zero.");
+}
+
+
+```
+
+
+
+<details><summary><b>Output</b></summary>
+
+```ts
+"use strict";
+let numero = parseFloat(prompt("Digite um número:"));
+if (numero % 2 === 0) {
+    console.log("O número é par.");
+}
+else {
+    console.log("O número é ímpar.");
+}
+if (numero > 0) {
+    console.log("O número é positivo.");
+}
+else if (numero < 0) {
+    console.log("O número é negativo.");
+}
+else {
+    console.log("O número é zero.");
+}
+
+```
+
+
+</details>
+
+
+<details><summary><b>Compiler Options</b></summary>
+
+```json
+{
+  "compilerOptions": {
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictPropertyInitialization": true,
+    "strictBindCallApply": true,
+    "noImplicitThis": true,
+    "noImplicitReturns": true,
+    "alwaysStrict": true,
+    "esModuleInterop": true,
+    "declaration": true,
+    "target": "ES2017",
+    "jsx": "react",
+    "module": "ESNext",
+    "moduleResolution": "node"
+  }
+}
+```
+
+
+</details>
+
+**Playground Link:** [Provided](https://www.typescriptlang.org/play/?#code/DYUwLgBAdgrgtiATgewgXggBwIaIM4gBiwy2YAFJinJhQEQAiAlgOZNggTzQBfCKALjoBKYQG4AUBKYAzCOVj9UAUggAmdGgwAGYRADeEiMYgBjZFDzJQAOhItydAPK8lEAJdZcNkZIC+ECDABAZGJuaW1iB2yA7OrkiongC3NN6+En5SsvKKiRAAfBC6oSZmFla29o4uUHz5npjIeOxMAG7IPuKZgcGcOQrw+QA8xXqGZRGV0dXxdW6eUCAsZO2dGQFBIRPhFVExcbX1KB4QAF6JXf5SQA)
+      
