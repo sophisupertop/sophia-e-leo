@@ -1,0 +1,61 @@
+
+```ts
+let tempo = parseFloat(prompt("Digite o tempo gasto na viagem (horas):"));
+let velocidadeMedia = parseFloat(prompt("Digite a velocidade média (km/h):"));
+
+let distancia = tempo * velocidadeMedia;
+let litrosUsados = distancia / 12;
+
+console.log(`Distância percorrida: ${distancia} km`);
+console.log(`Litros de combustível utilizados: ${litrosUsados.toFixed(2)} L`);
+
+```
+
+
+
+<details><summary><b>Output</b></summary>
+
+```ts
+"use strict";
+let tempo = parseFloat(prompt("Digite o tempo gasto na viagem (horas):"));
+let velocidadeMedia = parseFloat(prompt("Digite a velocidade média (km/h):"));
+let distancia = tempo * velocidadeMedia;
+let litrosUsados = distancia / 12;
+console.log(`Distância percorrida: ${distancia} km`);
+console.log(`Litros de combustível utilizados: ${litrosUsados.toFixed(2)} L`);
+
+```
+
+
+</details>
+
+
+<details><summary><b>Compiler Options</b></summary>
+
+```json
+{
+  "compilerOptions": {
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictPropertyInitialization": true,
+    "strictBindCallApply": true,
+    "noImplicitThis": true,
+    "noImplicitReturns": true,
+    "alwaysStrict": true,
+    "esModuleInterop": true,
+    "declaration": true,
+    "target": "ES2017",
+    "jsx": "react",
+    "module": "ESNext",
+    "moduleResolution": "node"
+  }
+}
+```
+
+
+</details>
+
+**Playground Link:** [Provided](https://www.typescriptlang.org/pt/play/?#code/DYUwLgBGILYA4HsIF4JwIYCcDOIBiwC6YAFHJgvKQEQAiAlgOb3QRLTxKPrZhIB26CADd66RrAgkAFgkw8AlAC5qChQG4AUKEjCQhAMb0AJumMgAsiGNiUaLLgJFS5SnBoNmrIXsMmzIBAwAJc2QiQA1jAA9NLKqhqa2uAQNrzo-EZCqByIEABUIvoIRqbmVmFaOhDALBTYAKrYZgjYdmlgGVkQ0RAAjABMWpoGCPzYCKAAdISMJAAGDLwAR5m2cCCYo5iY-koQACQA3h1dYgC+EFHziaPjkyAzCHPzADJ1ramBozAARgCuvAAt74IP8wPRagAvFrYfbHWpgepNWFTPh4egAD2sJAGCkurxuWiAA)
+      
