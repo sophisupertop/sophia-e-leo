@@ -1,0 +1,71 @@
+
+```ts
+let alturaFrancisco = 1.50;
+let alturaSara = 1.10;
+let crescimentoFrancisco = 0.02; // 2 cm por ano
+let crescimentoSara = 0.03; // 3 cm por ano
+let anos = 0;
+
+while (alturaFrancisco <= alturaSara) {
+    alturaFrancisco += crescimentoFrancisco;
+    alturaSara += crescimentoSara;
+    anos++;
+}
+
+console.log(`Francisco será maior que Sara em ${anos} anos.`);
+
+```
+
+
+
+<details><summary><b>Output</b></summary>
+
+```ts
+"use strict";
+let alturaFrancisco = 1.50;
+let alturaSara = 1.10;
+let crescimentoFrancisco = 0.02; // 2 cm por ano
+let crescimentoSara = 0.03; // 3 cm por ano
+let anos = 0;
+while (alturaFrancisco <= alturaSara) {
+    alturaFrancisco += crescimentoFrancisco;
+    alturaSara += crescimentoSara;
+    anos++;
+}
+console.log(`Francisco será maior que Sara em ${anos} anos.`);
+
+```
+
+
+</details>
+
+
+<details><summary><b>Compiler Options</b></summary>
+
+```json
+{
+  "compilerOptions": {
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictPropertyInitialization": true,
+    "strictBindCallApply": true,
+    "noImplicitThis": true,
+    "noImplicitReturns": true,
+    "alwaysStrict": true,
+    "esModuleInterop": true,
+    "declaration": true,
+    "target": "ES2017",
+    "jsx": "react",
+    "module": "ESNext",
+    "moduleResolution": "node"
+  }
+}
+```
+
+
+</details>
+
+**Playground Link:** [Provided](https://www.typescriptlang.org/play/?#code/DYUwLgBAhsYK4CcoDEkDsDGBLAzhg9hALwQCMAdAKwAMA3AFCiQzxIDKUSxZ5pdj4CBgQg8WALYg0YfKiiZcBbtXLUATLQgB6LRDVDxEAA74E0NPgGRho7JOn4OXEiuoBmTTohuDx0+csmAJxlBnoAdwALLFAIAAoWRBR0bDxCAB4SRPZOKABKCABveghS6FgkuQU0iABqEhsxexkq1IIGMvLWKCcoOoaRJqkZXo6y+XwcWtqGAF96egI0HHxQcmB8AHM4gANWxUIcEAQAQ4hxKCx-AEc4EAheiBBDABJCiZxZ4PIdvIYgA)
+      
