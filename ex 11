@@ -1,0 +1,66 @@
+
+```ts
+let nome = prompt("Digite o nome do aluno:");
+let notas = [];
+for (let i = 0; i < 4; i++) {
+    notas.push(parseFloat(prompt(`Digite a nota ${i + 1}:`)));
+}
+let media = notas.reduce((acc, nota) => acc + nota, 0) / notas.length;
+
+console.log(`Aluno: ${nome}`);
+console.log(`Média: ${media.toFixed(2)}`);
+console.log(media >= 7 ? "Aprovado" : "Reprovado");
+
+```
+
+
+
+<details><summary><b>Output</b></summary>
+
+```ts
+"use strict";
+let nome = prompt("Digite o nome do aluno:");
+let notas = [];
+for (let i = 0; i < 4; i++) {
+    notas.push(parseFloat(prompt(`Digite a nota ${i + 1}:`)));
+}
+let media = notas.reduce((acc, nota) => acc + nota, 0) / notas.length;
+console.log(`Aluno: ${nome}`);
+console.log(`Média: ${media.toFixed(2)}`);
+console.log(media >= 7 ? "Aprovado" : "Reprovado");
+
+```
+
+
+</details>
+
+
+<details><summary><b>Compiler Options</b></summary>
+
+```json
+{
+  "compilerOptions": {
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictPropertyInitialization": true,
+    "strictBindCallApply": true,
+    "noImplicitThis": true,
+    "noImplicitReturns": true,
+    "alwaysStrict": true,
+    "esModuleInterop": true,
+    "declaration": true,
+    "target": "ES2017",
+    "jsx": "react",
+    "module": "ESNext",
+    "moduleResolution": "node"
+  }
+}
+```
+
+
+</details>
+
+**Playground Link:** [Provided](https://www.typescriptlang.org/play/?#code/DYUwLgBAdg9gtiCBeCAHATvVYAUAiAEQEsBzIsRGaeRAEyoENgBXWALjwEoBuAKFEiwwDAM7IIAbQC6fAGYx0EHAIhFxABm6qIAHggAWLUQDUxzhADevCDerCRAOlTMRACxyoG6ESABiwGAZcDCxcAANiMgoIBjtYgBILNWMIAEYAXzYwzhy+dP5wCARaIliUIVEHdBBaZgBjEBwcBjq6gBo48yQAPhjWiBSKjvVzAHo4x1AoEjBXPl46mCgRGFAHAJIcMIBBFnYIRNgEdOy+ReXVkHWYTbCAWQBLkoY2A4ti0ocwGF8iAA8ajgAEycE48BZLFZrDY4D6xbooADsEAA-BA8NsQgA3Bj0PAQV54ABKIGxuJgXD4QA)
+      
