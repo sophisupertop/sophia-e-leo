@@ -1,0 +1,64 @@
+
+```ts
+let valores = [];
+for (let i = 0; i < 3; i++) {
+    valores.push(parseInt(prompt(`Digite o valor ${i + 1}:`)));
+}
+valores.sort((a, b) => b - a);
+
+console.log(`Valores em ordem decrescente: ${valores.join(", ")}`);
+
+
+
+
+
+```
+
+
+
+<details><summary><b>Output</b></summary>
+
+```ts
+"use strict";
+let valores = [];
+for (let i = 0; i < 3; i++) {
+    valores.push(parseInt(prompt(`Digite o valor ${i + 1}:`)));
+}
+valores.sort((a, b) => b - a);
+console.log(`Valores em ordem decrescente: ${valores.join(", ")}`);
+
+```
+
+
+</details>
+
+
+<details><summary><b>Compiler Options</b></summary>
+
+```json
+{
+  "compilerOptions": {
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictPropertyInitialization": true,
+    "strictBindCallApply": true,
+    "noImplicitThis": true,
+    "noImplicitReturns": true,
+    "alwaysStrict": true,
+    "esModuleInterop": true,
+    "declaration": true,
+    "target": "ES2017",
+    "jsx": "react",
+    "module": "ESNext",
+    "moduleResolution": "node"
+  }
+}
+```
+
+
+</details>
+
+**Playground Link:** [Provided](https://www.typescriptlang.org/play/?#code/DYUwLgBAbghsD2AnEBnCBeCBtAugbgCgAzJCAClEgEsMIAGPCGgHggGZGqBqLgSggDeBCCOhwkqAHQAHAK4oAFmWkxEKEAEkAdmGWJ4AW2m6ABgBEqAcypgQEeGISIIAEgE0uEAIwBfAFwmvEGEPgSwTlIoSLpkMAA0EABG-OgAfEkQALQQMLyEBADG8FpRoJIIlmQmAGriyGggBvaIACaNEG0F9QUgOiB+rgLhEiiSAFbwVFpkAEQJM7w+gfkEq0A)
+      
