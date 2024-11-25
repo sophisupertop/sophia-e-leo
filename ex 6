@@ -1,0 +1,59 @@
+
+```ts
+codigo-
+
+
+let valor = parseFloat(prompt("Digite um valor:"));
+let reajuste = valor * 1.05;
+
+console.log(`O valor com reajuste de 5% é: ${reajuste.toFixed(2)}`);
+
+
+
+```
+
+
+
+<details><summary><b>Output</b></summary>
+
+```ts
+"use strict";
+let valor = parseFloat(prompt("Digite um valor:"));
+let reajuste = valor * 1.05;
+console.log(`O valor com reajuste de 5% é: ${reajuste.toFixed(2)}`);
+
+```
+
+
+</details>
+
+
+<details><summary><b>Compiler Options</b></summary>
+
+```json
+{
+  "compilerOptions": {
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictPropertyInitialization": true,
+    "strictBindCallApply": true,
+    "noImplicitThis": true,
+    "noImplicitReturns": true,
+    "alwaysStrict": true,
+    "esModuleInterop": true,
+    "declaration": true,
+    "target": "ES2017",
+    "jsx": "react",
+    "module": "ESNext",
+    "moduleResolution": "node"
+  }
+}
+```
+
+
+</details>
+
+**Playground Link:** [Provided](https://www.typescriptlang.org/play/?#code/DYUwLgBAbghsD2AnCBeCAHGiDOIBiCMYAFOovALbokBEAIgJYDmDYIEArhdHEgFw0AlIIDcAKFCREIGACsO2Nqh4JkAKggBGAHQAGAKzixAY3gA7bPFDaETYgAMA8iqQRT3aXIVKAJu30ApBAAl3wQACQA3p7yiiDaYPB4DAAeID7EAEyCAL72omKFQA)
+      
