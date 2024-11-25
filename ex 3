@@ -1,0 +1,59 @@
+
+```ts
+let A = parseInt(prompt("Digite o valor de A:"));
+let B = parseInt(prompt("Digite o valor de B:"));
+
+let C = A === B ? A + B : A * B;
+console.log(`O resultado é: ${C}`);
+
+}
+
+
+```
+
+
+
+<details><summary><b>Output</b></summary>
+
+```ts
+"use strict";
+let A = parseInt(prompt("Digite o valor de A:"));
+let B = parseInt(prompt("Digite o valor de B:"));
+let C = A === B ? A + B : A * B;
+console.log(`O resultado é: ${C}`);
+
+```
+
+
+</details>
+
+
+<details><summary><b>Compiler Options</b></summary>
+
+```json
+{
+  "compilerOptions": {
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictPropertyInitialization": true,
+    "strictBindCallApply": true,
+    "noImplicitThis": true,
+    "noImplicitReturns": true,
+    "alwaysStrict": true,
+    "esModuleInterop": true,
+    "declaration": true,
+    "target": "ES2017",
+    "jsx": "react",
+    "module": "ESNext",
+    "moduleResolution": "node"
+  }
+}
+```
+
+
+</details>
+
+**Playground Link:** [Provided](https://www.typescriptlang.org/play/?#code/DYUwLgBAghC8EAcCGAnAziAkgOzACgRQHsBbBfAIgBEBLAcxrBAiIgDclgiUIATZqAC4KAShEBuAFChIAITiJUGHPkKlyeavUbNWHLj34RZwsVOngIAYQUxY94xAD80CAGpHg1wCpjUgMZE2GhEoAB0XHR4AAYA8hAoIGgArsBgSLysAJdeACQA3lYAvtESkpJF5UA)
+      
