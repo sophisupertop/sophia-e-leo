@@ -1,0 +1,58 @@
+
+```ts
+let salarioMinimo = 1293.20; // valor fixado
+let salarioUsuario = parseFloat(prompt("Digite o valor do seu salário:"));
+
+let quantidade = salarioUsuario / salarioMinimo;
+console.log(`Você ganha aproximadamente ${quantidade.toFixed(2)} salários mínimos.`);
+
+
+
+```
+
+
+
+<details><summary><b>Output</b></summary>
+
+```ts
+"use strict";
+let salarioMinimo = 1293.20; // valor fixado
+let salarioUsuario = parseFloat(prompt("Digite o valor do seu salário:"));
+let quantidade = salarioUsuario / salarioMinimo;
+console.log(`Você ganha aproximadamente ${quantidade.toFixed(2)} salários mínimos.`);
+
+```
+
+
+</details>
+
+
+<details><summary><b>Compiler Options</b></summary>
+
+```json
+{
+  "compilerOptions": {
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictPropertyInitialization": true,
+    "strictBindCallApply": true,
+    "noImplicitThis": true,
+    "noImplicitReturns": true,
+    "alwaysStrict": true,
+    "esModuleInterop": true,
+    "declaration": true,
+    "target": "ES2017",
+    "jsx": "react",
+    "module": "ESNext",
+    "moduleResolution": "node"
+  }
+}
+```
+
+
+</details>
+
+**Playground Link:** [Provided](https://www.typescriptlang.org/play/?#code/DYUwLgBAzghsMCcCWB7AskgdkgtiiAvBAIwBMAnAMwB0pADANwQD0zEAbnCghAGZIAPGABMUAKFCRY8ZCgCqUAK6JUhCAAdEUEADFgKGGAAU6hChzrjAIgAiSAOZIwICPk76eo6CEXQ4AQ9kALisASlCGMQlwCABHZUwwJGERFyJpFXklTJY-GVQMbDxIgGMUTCgUUGp9eyMAAwA1FBKAK4h7GEwACxgIGFMUAVwRGBwQRJcAEgBveK6klOEQajAUHUEQYSNSUIBfPMDUKAgcAFuilChqeoiosSA)
+      
