@@ -1,0 +1,79 @@
+
+```ts
+let lado1 = parseFloat(prompt("Digite o primeiro lado do triângulo:"));
+let lado2 = parseFloat(prompt("Digite o segundo lado do triângulo:"));
+let lado3 = parseFloat(prompt("Digite o terceiro lado do triângulo:"));
+
+if (lado1 + lado2 > lado3 && lado1 + lado3 > lado2 && lado2 + lado3 > lado1) {
+    if (lado1 === lado2 && lado2 === lado3) {
+        console.log("Triângulo Equilátero.");
+    } else if (lado1 === lado2 || lado1 === lado3 || lado2 === lado3) {
+        console.log("Triângulo Isósceles.");
+    } else {
+        console.log("Triângulo Escaleno.");
+    }
+} else {
+    console.log("Os lados não formam um triângulo.");
+}
+
+```
+
+
+
+<details><summary><b>Output</b></summary>
+
+```ts
+"use strict";
+let lado1 = parseFloat(prompt("Digite o primeiro lado do triângulo:"));
+let lado2 = parseFloat(prompt("Digite o segundo lado do triângulo:"));
+let lado3 = parseFloat(prompt("Digite o terceiro lado do triângulo:"));
+if (lado1 + lado2 > lado3 && lado1 + lado3 > lado2 && lado2 + lado3 > lado1) {
+    if (lado1 === lado2 && lado2 === lado3) {
+        console.log("Triângulo Equilátero.");
+    }
+    else if (lado1 === lado2 || lado1 === lado3 || lado2 === lado3) {
+        console.log("Triângulo Isósceles.");
+    }
+    else {
+        console.log("Triângulo Escaleno.");
+    }
+}
+else {
+    console.log("Os lados não formam um triângulo.");
+}
+
+```
+
+
+</details>
+
+
+<details><summary><b>Compiler Options</b></summary>
+
+```json
+{
+  "compilerOptions": {
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictPropertyInitialization": true,
+    "strictBindCallApply": true,
+    "noImplicitThis": true,
+    "noImplicitReturns": true,
+    "alwaysStrict": true,
+    "esModuleInterop": true,
+    "declaration": true,
+    "target": "ES2017",
+    "jsx": "react",
+    "module": "ESNext",
+    "moduleResolution": "node"
+  }
+}
+```
+
+
+</details>
+
+**Playground Link:** [Provided](https://www.typescriptlang.org/play/?#code/DYUwLgBMCGAmD2BGCBeCAHaAnAziAYsPNGABTpbwC26ZARACICWA5k2CBPBlk1SE0pQ43BBDC8ARwDsWAVyIAuOgEoVAbgBQoSDAQAmVBmx5CxMhWq1SjVu07c886WL2juEpjPlLVG7eDCCADMRpi4BEQk5JQ09MxsHFziIFgAxgJCbhBint4K8MpqWppMAGYQpG7IANRB8IYAfPWhAGSt9bUtEM1uhu31hnVuob0iiCoQAN6aEHMQ5ZXVqChofRAD66trIsGTM-OHEGnw0jjwoAB0RCw2ACpSsgUQAKIAjnJMwACHHJSXqi0hwAvhAQMA8AsKlVxisdgYIAAfRGdOHdZGDNEjfazI5zE5nC4ga7wW50B5eJ5ECAASRwAGecBlQDgAf4QWCIZwDnjjqdzlcbvdHj5uC8mdBQNJ4GygfNgZpQeDITz8fyiSSyQB5HD1XXSADH3DK8CwVGgVAgckteSpMsBis0QA)
+      
