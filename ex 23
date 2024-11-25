@@ -1,0 +1,61 @@
+
+```ts
+let valorHora = parseFloat(prompt("Digite o valor da hora-aula:"));
+let aulas = parseInt(prompt("Digite o número de aulas no mês:"));
+let descontoINSS = parseFloat(prompt("Digite o percentual de desconto do INSS (%):"));
+
+let salarioBruto = valorHora * aulas;
+let salarioLiquido = salarioBruto * (1 - descontoINSS / 100);
+
+console.log(`Salário líquido: R$${salarioLiquido.toFixed(2)}`);
+
+```
+
+
+
+<details><summary><b>Output</b></summary>
+
+```ts
+"use strict";
+let valorHora = parseFloat(prompt("Digite o valor da hora-aula:"));
+let aulas = parseInt(prompt("Digite o número de aulas no mês:"));
+let descontoINSS = parseFloat(prompt("Digite o percentual de desconto do INSS (%):"));
+let salarioBruto = valorHora * aulas;
+let salarioLiquido = salarioBruto * (1 - descontoINSS / 100);
+console.log(`Salário líquido: R$${salarioLiquido.toFixed(2)}`);
+
+```
+
+
+</details>
+
+
+<details><summary><b>Compiler Options</b></summary>
+
+```json
+{
+  "compilerOptions": {
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictPropertyInitialization": true,
+    "strictBindCallApply": true,
+    "noImplicitThis": true,
+    "noImplicitReturns": true,
+    "alwaysStrict": true,
+    "esModuleInterop": true,
+    "declaration": true,
+    "target": "ES2017",
+    "jsx": "react",
+    "module": "ESNext",
+    "moduleResolution": "node"
+  }
+}
+```
+
+
+</details>
+
+**Playground Link:** [Provided](https://www.typescriptlang.org/pt/play/?#code/DYUwLgBAbghsD2AnAEkmEC8EAONEGcQAxBGMACm0XgFtsKAiAEQEsBzFsECeaOJCABN0ACzQBaGAFdgMAFwMAlIoDcAKFCRps-Jhx5CASQB2FKrXrlm7Tt17GAXzRDUh3bTF3HeNAFf4FZXVNN3wAY3hTeEMAOQBlOL1cAmJSM2o6RlYOLh4cFzCQUyk4N1CIqKFeWISIcgBSRUDVNQ1wCHw4PBZ4ACFEKTBeLFgEFDQIACoID3xg9s7ZRB6AGRYARykWQWGOruW+gaGpuoBGCHFyyKGaxIB6CFOABieWtQr8eFAAOgQ2cgABnE4ABDg4QYAAW8223gcggACUACRIgDei268DWMJ23yGRBYAA8QIJyAAmRQAXwBLSAA)
+      
