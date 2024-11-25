@@ -1,0 +1,67 @@
+
+```ts
+let anoNascimento = parseInt(prompt("Digite o ano de nascimento:"));
+let anoAtual = new Date().getFullYear();
+
+let idadeAnos = anoAtual - anoNascimento;
+let idadeMeses = idadeAnos * 12;
+let idadeDias = idadeAnos * 365;
+
+console.log(`Você viveu aproximadamente: 
+- ${idadeAnos} anos 
+- ${idadeMeses} meses 
+- ${idadeDias} dias`);
+
+```
+
+
+
+<details><summary><b>Output</b></summary>
+
+```ts
+"use strict";
+let anoNascimento = parseInt(prompt("Digite o ano de nascimento:"));
+let anoAtual = new Date().getFullYear();
+let idadeAnos = anoAtual - anoNascimento;
+let idadeMeses = idadeAnos * 12;
+let idadeDias = idadeAnos * 365;
+console.log(`Você viveu aproximadamente: 
+- ${idadeAnos} anos 
+- ${idadeMeses} meses 
+- ${idadeDias} dias`);
+
+```
+
+
+</details>
+
+
+<details><summary><b>Compiler Options</b></summary>
+
+```json
+{
+  "compilerOptions": {
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictPropertyInitialization": true,
+    "strictBindCallApply": true,
+    "noImplicitThis": true,
+    "noImplicitReturns": true,
+    "alwaysStrict": true,
+    "esModuleInterop": true,
+    "declaration": true,
+    "target": "ES2017",
+    "jsx": "react",
+    "module": "ESNext",
+    "moduleResolution": "node"
+  }
+}
+```
+
+
+</details>
+
+**Playground Link:** [Provided](https://www.typescriptlang.org/play/?#code/DYUwLgBAhgdg9gOSgZwMYEsC2IZjhAXggAcoAnZEASVwApiy5NixaAiAEXQHN0wQI+WPgAmAmCgzZccAFxsAlAoDcAKFCRhAQTABXKMEIQYIAO4QOUfrQUA6buABiu4MACaIcjbXrwEdCJQYlrwyEbaegYQALTQ8EhoWDh4ahr+gWIAsiCUYUQBQSAhcGEAVBAAjABMqX4FYlwoRvVFoRDlAMwAbACsPqhwMMhwoLbAcNy0AAYAanCoAFcQAG7oyyC60AxwAB5YQVDS-LIQqrEAJADeLcXIAL5xJacX1xkg2bkP2LnPEFctjXuEBE6BQUxUqiAA)
+      
