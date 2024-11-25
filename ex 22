@@ -1,0 +1,59 @@
+
+```ts
+let A = parseInt(prompt("Digite o valor de A:"));
+let B = parseInt(prompt("Digite o valor de B:"));
+
+let quociente = Math.floor(A / B);
+let resto = A % B;
+
+console.log(`Quociente: ${quociente}, Resto: ${resto}`);
+
+```
+
+
+
+<details><summary><b>Output</b></summary>
+
+```ts
+"use strict";
+let A = parseInt(prompt("Digite o valor de A:"));
+let B = parseInt(prompt("Digite o valor de B:"));
+let quociente = Math.floor(A / B);
+let resto = A % B;
+console.log(`Quociente: ${quociente}, Resto: ${resto}`);
+
+```
+
+
+</details>
+
+
+<details><summary><b>Compiler Options</b></summary>
+
+```json
+{
+  "compilerOptions": {
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictPropertyInitialization": true,
+    "strictBindCallApply": true,
+    "noImplicitThis": true,
+    "noImplicitReturns": true,
+    "alwaysStrict": true,
+    "esModuleInterop": true,
+    "declaration": true,
+    "target": "ES2017",
+    "jsx": "react",
+    "module": "ESNext",
+    "moduleResolution": "node"
+  }
+}
+```
+
+
+</details>
+
+**Playground Link:** [Provided](https://www.typescriptlang.org/pt/play/?#code/DYUwLgBAghC8EAcCGAnAziAkgOzACgRQHsBbBfAIgBEBLAcxrBAiIgDclgiUIATZqAC4KAShEBuAFChIAITiJUGHPkKlyeavUbNWHLj34RZwsVOngIARwCuRAMY0QuZvACySMAAsAdADMubjwYAHpjCQtIFBA0MFZ4GABSY3N7Imw0IlAfLjo8AAMARTtHZyZBCAASAG9bBycXAF8AGggAJRi4ipro2KJG-IigA)
+      
