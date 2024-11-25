@@ -1,0 +1,91 @@
+
+```ts
+let peso = parseFloat(prompt("Digite seu peso (kg):"));
+let altura = parseFloat(prompt("Digite sua altura (m):"));
+let imc = peso / (altura ** 2);
+
+console.log(`Seu IMC é: ${imc.toFixed(2)}`);
+if (imc < 18.5) {
+    console.log("Abaixo do peso.");
+} else if (imc <= 24.9) {
+    console.log("Peso ideal (parabéns).");
+} else if (imc <= 29.9) {
+    console.log("Levemente acima do peso.");
+} else if (imc <= 34.9) {
+    console.log("Obesidade grau I.");
+} else if (imc <= 39.9) {
+    console.log("Obesidade grau II (severa).");
+} else {
+    console.log("Obesidade grau III (mórbida).");
+}
+
+
+
+
+
+```
+
+
+
+<details><summary><b>Output</b></summary>
+
+```ts
+"use strict";
+let peso = parseFloat(prompt("Digite seu peso (kg):"));
+let altura = parseFloat(prompt("Digite sua altura (m):"));
+let imc = peso / (altura ** 2);
+console.log(`Seu IMC é: ${imc.toFixed(2)}`);
+if (imc < 18.5) {
+    console.log("Abaixo do peso.");
+}
+else if (imc <= 24.9) {
+    console.log("Peso ideal (parabéns).");
+}
+else if (imc <= 29.9) {
+    console.log("Levemente acima do peso.");
+}
+else if (imc <= 34.9) {
+    console.log("Obesidade grau I.");
+}
+else if (imc <= 39.9) {
+    console.log("Obesidade grau II (severa).");
+}
+else {
+    console.log("Obesidade grau III (mórbida).");
+}
+
+```
+
+
+</details>
+
+
+<details><summary><b>Compiler Options</b></summary>
+
+```json
+{
+  "compilerOptions": {
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictPropertyInitialization": true,
+    "strictBindCallApply": true,
+    "noImplicitThis": true,
+    "noImplicitReturns": true,
+    "alwaysStrict": true,
+    "esModuleInterop": true,
+    "declaration": true,
+    "target": "ES2017",
+    "jsx": "react",
+    "module": "ESNext",
+    "moduleResolution": "node"
+  }
+}
+```
+
+
+</details>
+
+**Playground Link:** [Provided](https://www.typescriptlang.org/play/?#code/DYUwLgBADiDOD2EC80CGAnWIBix6rAAop14BbKIgIgBEBLAczrBAiwFdo5FCBrBgJQAuKgIEBuAFChIqYGHbpUyNJhx4CxUhWr0mLNu2VyFSiITLDRE6eAh0yAYxUwEEAPTmTi5QCpfEABMNpKO8AB2CKAAdHgMhAAGAMognACSALIAwhAAl0IQACQA3g6O0WDw2HQAHiAAJoTBAL4JNnQAZuZlEAA8EACMABzRAKwCEMWSEDMQYZHwMXGEVACCAEaotYj1iK7w0aJSzRAgwFj2XYQ9vSiBACzRAJwTU7NzEVEgsfDxVAAK3Hs9RAcnMUAwqHWuUiAkONhOZwunW6Tj6dyez1e01m8y+Pz+ABkQAA3EBkEDhAyoRwOZS7LgIeHHU7nVgo65o24QADMjxekxxMzxi2+yyoAHl1nA6PVUCCIAwlOlmZJEWzLqjnNyeZiBW9cZ9RQSVlKZXKFUrUOk0uYsGSlHCjmrWRcDcKjUtfqbpbBZfLWFabbaLABn9Drf1OhGSWOxoA)
+      
