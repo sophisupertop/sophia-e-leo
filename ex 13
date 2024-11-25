@@ -1,0 +1,63 @@
+
+```ts
+let nome = prompt("Digite o nome da pessoa:");
+let idade = parseInt(prompt("Digite a idade de " + nome + ":"));
+
+if (idade >= 18) {
+    console.log(`${nome} é maior de idade.`);
+} else {
+    console.log(`${nome} é menor de idade.`);
+}
+
+```
+
+
+
+<details><summary><b>Output</b></summary>
+
+```ts
+"use strict";
+let nome = prompt("Digite o nome da pessoa:");
+let idade = parseInt(prompt("Digite a idade de " + nome + ":"));
+if (idade >= 18) {
+    console.log(`${nome} é maior de idade.`);
+}
+else {
+    console.log(`${nome} é menor de idade.`);
+}
+
+```
+
+
+</details>
+
+
+<details><summary><b>Compiler Options</b></summary>
+
+```json
+{
+  "compilerOptions": {
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictPropertyInitialization": true,
+    "strictBindCallApply": true,
+    "noImplicitThis": true,
+    "noImplicitReturns": true,
+    "alwaysStrict": true,
+    "esModuleInterop": true,
+    "declaration": true,
+    "target": "ES2017",
+    "jsx": "react",
+    "module": "ESNext",
+    "moduleResolution": "node"
+  }
+}
+```
+
+
+</details>
+
+**Playground Link:** [Provided](https://www.typescriptlang.org/play/?#code/DYUwLgBAdg9gtiCBeCAHATvVYAUAiAEQEsBzIsRGaeRAEwEM0QBnZmegLjwEoBuAKFCQiDWohSp66ZiACSUXBiy5CpcokYj6YiDrwQA1NQSGIeLtz79+RAGYQcWnQD4UARgAc3CAG9+EAIgAYxgoNlAAOmAYEhwAAwASH1gEAF8IAEuIOHoiGHRdRCcQCLirdJBgGV9-QJCwmEjo2MTkmnSshFgCnWLS8v4gA)
+      
