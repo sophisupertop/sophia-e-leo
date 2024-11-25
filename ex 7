@@ -1,0 +1,72 @@
+
+```ts
+let valor1 = confirm("O primeiro valor é verdadeiro? OK para Sim, Cancelar para Não.");
+let valor2 = confirm("O segundo valor é verdadeiro? OK para Sim, Cancelar para Não.");
+
+if (valor1 && valor2) {
+    console.log("Ambos são VERDADEIRO.");
+} else if (!valor1 && !valor2) {
+    console.log("Ambos são FALSO.");
+} else {
+    console.log("Os valores são diferentes.");
+}
+
+
+
+
+
+```
+
+
+
+<details><summary><b>Output</b></summary>
+
+```ts
+"use strict";
+let valor1 = confirm("O primeiro valor é verdadeiro? OK para Sim, Cancelar para Não.");
+let valor2 = confirm("O segundo valor é verdadeiro? OK para Sim, Cancelar para Não.");
+if (valor1 && valor2) {
+    console.log("Ambos são VERDADEIRO.");
+}
+else if (!valor1 && !valor2) {
+    console.log("Ambos são FALSO.");
+}
+else {
+    console.log("Os valores são diferentes.");
+}
+
+```
+
+
+</details>
+
+
+<details><summary><b>Compiler Options</b></summary>
+
+```json
+{
+  "compilerOptions": {
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictPropertyInitialization": true,
+    "strictBindCallApply": true,
+    "noImplicitThis": true,
+    "noImplicitReturns": true,
+    "alwaysStrict": true,
+    "esModuleInterop": true,
+    "declaration": true,
+    "target": "ES2017",
+    "jsx": "react",
+    "module": "ESNext",
+    "moduleResolution": "node"
+  }
+}
+```
+
+
+</details>
+
+**Playground Link:** [Provided](https://www.typescriptlang.org/play/?#code/DYUwLgBAbghsD2AnAjBAvBAxvAdgMwEtEBbACgCIB5CAB0QOJCPmjiQgEvoREATGXk0TwA-BEoBpWjEQwIAZQYAaCAGEYOTCGAzpsiADkAx-AB05AJQBuAFChIsBIgBM6LLkIkK1AM4gA5gCuOLwsjuxcUDz8gsxiknpyisQq6praujQycsZmlrY2BHgQpOEoEABkFaxOzhYQAN42EC3uOD7woKYI-hQAgsQARvA+ED4mEABqAKIASgAiffPTAJKzlObWNgC+ENp+EEUlAIRlqFUQp2wu9U2tbR1dPf1DI2MTAGJ9ADLyG-k7PbAA53VrYdqdEDdeC9KijMogUbjFi8Io8EA4MCIza2bY2fH4oA)
+      
