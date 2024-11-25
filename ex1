@@ -1,0 +1,70 @@
+
+```ts
+let A = parseFloat(prompt("Digite o valor de A:"));
+let B = parseFloat(prompt("Digite o valor de B:"));
+let C = parseFloat(prompt("Digite o valor de C:"));
+
+let soma = A + B;
+console.log(`A soma de A e B é: ${soma}`);
+if (soma < C) {
+    console.log("A soma é menor que C.");
+} else {
+    console.log("A soma não é menor que C.");
+}
+
+  
+```
+
+
+
+<details><summary><b>Output</b></summary>
+
+```ts
+"use strict";
+let A = parseFloat(prompt("Digite o valor de A:"));
+let B = parseFloat(prompt("Digite o valor de B:"));
+let C = parseFloat(prompt("Digite o valor de C:"));
+let soma = A + B;
+console.log(`A soma de A e B é: ${soma}`);
+if (soma < C) {
+    console.log("A soma é menor que C.");
+}
+else {
+    console.log("A soma não é menor que C.");
+}
+
+```
+
+
+</details>
+
+
+<details><summary><b>Compiler Options</b></summary>
+
+```json
+{
+  "compilerOptions": {
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictPropertyInitialization": true,
+    "strictBindCallApply": true,
+    "noImplicitThis": true,
+    "noImplicitReturns": true,
+    "alwaysStrict": true,
+    "esModuleInterop": true,
+    "declaration": true,
+    "target": "ES2017",
+    "jsx": "react",
+    "module": "ESNext",
+    "moduleResolution": "node"
+  }
+}
+```
+
+
+</details>
+
+**Playground Link:** [Provided](https://www.typescriptlang.org/pt/play/?#code/DYUwLgBAghC8EAcCGAnAziAYsA9ksAFAijgLYKEBEAIgJYDmtYIEOEAbkrihACYtQAXJQCUIgNwAoUJABCcRKgzY8hYmQoEaDJizadufFrOFipMiAGEFydFlz4iJclTqNmrDlxw9+V0xKS0uAQaGRICjAA1BCyUgDGOAB2YaAAdLj0BAAGMGGkEX4wxhAAl4IQACQA3vlIAL7ZgbQAZhAEdRAAPFYiENWSEEMQiSk46ZlaeeFlEKQgST4QAI4AriyWaaJS9RAgwBj9g8OjqSAZOFmU0wUQSQDHbKVzC0trG1uB9UFDQA)
+      
