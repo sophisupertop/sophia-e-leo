@@ -1,0 +1,96 @@
+
+```ts
+let valorProduto = parseFloat(prompt("Digite o valor do produto:"));
+let opcao = parseInt(prompt("Escolha a forma de pagamento:\n1- Dinheiro/Pix (15% de desconto)\n2- Cartão à vista (10% de desconto)\n3- Parcelado em 2x (sem juros)\n4- Parcelado 3x ou mais (10% de juros)"));
+
+let valorFinal;
+
+switch (opcao) {
+    case 1:
+        valorFinal = valorProduto * 0.85;
+        break;
+    case 2:
+        valorFinal = valorProduto * 0.90;
+        break;
+    case 3:
+        valorFinal = valorProduto;
+        break;
+    case 4:
+        valorFinal = valorProduto * 1.10;
+        break;
+    default:
+        console.log("Opção inválida.");
+        break;
+}
+
+if (valorFinal) {
+    console.log(`O valor final a ser pago é: R$${valorFinal.toFixed(2)}`);
+}
+
+```
+
+
+
+<details><summary><b>Output</b></summary>
+
+```ts
+"use strict";
+let valorProduto = parseFloat(prompt("Digite o valor do produto:"));
+let opcao = parseInt(prompt("Escolha a forma de pagamento:\n1- Dinheiro/Pix (15% de desconto)\n2- Cartão à vista (10% de desconto)\n3- Parcelado em 2x (sem juros)\n4- Parcelado 3x ou mais (10% de juros)"));
+let valorFinal;
+switch (opcao) {
+    case 1:
+        valorFinal = valorProduto * 0.85;
+        break;
+    case 2:
+        valorFinal = valorProduto * 0.90;
+        break;
+    case 3:
+        valorFinal = valorProduto;
+        break;
+    case 4:
+        valorFinal = valorProduto * 1.10;
+        break;
+    default:
+        console.log("Opção inválida.");
+        break;
+}
+if (valorFinal) {
+    console.log(`O valor final a ser pago é: R$${valorFinal.toFixed(2)}`);
+}
+
+```
+
+
+</details>
+
+
+<details><summary><b>Compiler Options</b></summary>
+
+```json
+{
+  "compilerOptions": {
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictPropertyInitialization": true,
+    "strictBindCallApply": true,
+    "noImplicitThis": true,
+    "noImplicitReturns": true,
+    "alwaysStrict": true,
+    "esModuleInterop": true,
+    "declaration": true,
+    "target": "ES2017",
+    "jsx": "react",
+    "module": "ESNext",
+    "moduleResolution": "node"
+  }
+}
+```
+
+
+</details>
+
+**Playground Link:** [Provided](https://www.typescriptlang.org/play/?ssl=2&ssc=64&pln=2&pc=94#code/DYUwLgBAbghsD2AnACo+ATArmeEC8EADjIgM4gBiCMYAFIWgLaF0BEAIgJYDmnYIEXLASII6XAwzZ4ALlYBKeQG4AUKEjxCAYxi4CxMiACSAOzqTmbAKKkt8YAAsYEZwDMkjZ+gHFuMRiBmsgA6JgCMALQQXCYOIJxoAPTInAAeELRhAKwApGIC3rbwQfKhAExRAMIkYADHuAAH0JykYM6ZAAx53vlFJaEAzFHIJFogwDDiECCMEGXptOSzAFaYaKSlJgAsw6Pjk7gD6fCYEJ4tGWFd+RCr6-IKyipq4NBwSBScJnCqKqQA7nwtA4MpodPB5BAAN4qCBwiA6cgQMIyWHw9HCD5fOD4N4iVBSHAQABUEA6ADoABxZVTo9EAI0QIBgAGtafDEQIyqi6fDMYhPt9gLj+QSsETSRSAJwddm8xnMtlouGciADHm8vFYoUi94oNDi+ByukK1nG1VbDW8-mCnEEUUG6Qk5Hkq7GhlMs3K-KuGCYYBgK10uwmUj2EDkhDcWisADyhAA5-UIF8oABD4CcdAwckKd3w01KgC+z04rgyNuxwEhMPRIbDoEj8GjAANY1rRK4qy4IORRL5cABLmQQABKABJx1DK0LyThPqkQOhaGV5EWW08S0A)
+      
