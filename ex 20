@@ -1,0 +1,58 @@
+
+```ts
+let numero = parseInt(prompt("Digite um número para a tabuada:"));
+
+console.log(`Tabuada de ${numero}:`);
+for (let i = 1; i <= 10; i++) {
+    console.log(`${numero} x ${i} = ${numero * i}`);
+}
+
+```
+
+
+
+<details><summary><b>Output</b></summary>
+
+```ts
+"use strict";
+let numero = parseInt(prompt("Digite um número para a tabuada:"));
+console.log(`Tabuada de ${numero}:`);
+for (let i = 1; i <= 10; i++) {
+    console.log(`${numero} x ${i} = ${numero * i}`);
+}
+
+```
+
+
+</details>
+
+
+<details><summary><b>Compiler Options</b></summary>
+
+```json
+{
+  "compilerOptions": {
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictPropertyInitialization": true,
+    "strictBindCallApply": true,
+    "noImplicitThis": true,
+    "noImplicitReturns": true,
+    "alwaysStrict": true,
+    "esModuleInterop": true,
+    "declaration": true,
+    "target": "ES2017",
+    "jsx": "react",
+    "module": "ESNext",
+    "moduleResolution": "node"
+  }
+}
+```
+
+
+</details>
+
+**Playground Link:** [Provided](https://www.typescriptlang.org/play/?#code/DYUwLgBAdgrgtiATgewgXggBwIaIM4gCSUYAFJinJmQEQAiAlgOYNggTzQBfCKWu2CILDYARjGwATbAC4aASnkBuAFAqAxsih5koAHTBkTUgAMAKmInSIk9gBIA3rF7IAvjJPKVAM2SIIpKCQDOgQAIxKECEAPBhhAAyRDADUyfIQDioQ2RCa2rogBkamjs5IbhAAHhCODK6hpfDlEABUUa6eqq4qQA)
+      
