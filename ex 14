@@ -1,0 +1,61 @@
+
+```ts
+let A = parseFloat(prompt("Digite o valor de A:"));
+let B = parseFloat(prompt("Digite o valor de B:"));
+
+let temp = A;
+A = B;
+B = temp;
+
+console.log(`Após a troca: A = ${A}, B = ${B}`);
+
+```
+
+
+
+<details><summary><b>Output</b></summary>
+
+```ts
+"use strict";
+let A = parseFloat(prompt("Digite o valor de A:"));
+let B = parseFloat(prompt("Digite o valor de B:"));
+let temp = A;
+A = B;
+B = temp;
+console.log(`Após a troca: A = ${A}, B = ${B}`);
+
+```
+
+
+</details>
+
+
+<details><summary><b>Compiler Options</b></summary>
+
+```json
+{
+  "compilerOptions": {
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictPropertyInitialization": true,
+    "strictBindCallApply": true,
+    "noImplicitThis": true,
+    "noImplicitReturns": true,
+    "alwaysStrict": true,
+    "esModuleInterop": true,
+    "declaration": true,
+    "target": "ES2017",
+    "jsx": "react",
+    "module": "ESNext",
+    "moduleResolution": "node"
+  }
+}
+```
+
+
+</details>
+
+**Playground Link:** [Provided](https://www.typescriptlang.org/play/?#code/DYUwLgBAghC8EAcCGAnAziAYsA9ksAFAijgLYKEBEAIgJYDmtYIEOEAbkrihACYtQAXJQCUIgNwAoUJABCcRKgzY8hYmQoEaDJizadufFrOFip08BGbkFUKTHiyp8+NYTmAxjgB2aHKAA6XHoCAAMoBABntAgkKxIPJEFoBQASAG8oAF8AGggXCAzZLNCJSSA)
+      
